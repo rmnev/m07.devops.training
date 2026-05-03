@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: metrics-app
-          image: DOCKERHUB_USERNAME/metrics-app:latest
+          image: rmnev/metrics-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
