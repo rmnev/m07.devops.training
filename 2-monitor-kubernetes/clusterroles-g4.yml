@@ -1,7 +1,7 @@
 # clusterroles-group4.yml - RBAC overrides for monitoring-group4
 prometheusOperator:
   extraArgs:
-    - "--namespaces=group-4"  # Restrict to group-4 only
+    - "--namespaces=g4"  # Restrict to group-4 only
   rbac:
     create: true
     pspEnabled: false
